@@ -2,8 +2,6 @@ local executorEnv=getgenv()
 local assert=assert
 local typeof=typeof
 local rawget=rawget
-local setfenv=setfenv
-local table=table
 local print=print
 local getrawmetatable=getrawmetatable
 local game=game
@@ -19,9 +17,6 @@ local string=string
 local utf8=utf8
 
 local sha384=loadstring(game:HttpGet("https://raw.githubusercontent.com/loadstring1/roblox-exploit-script-env-tweaker/refs/heads/main/dependencies/sha384.luau"))()
-
-setfenv(0,table.freeze{})
-setfenv(1,table.freeze{})
 
 local funcs={}
 
