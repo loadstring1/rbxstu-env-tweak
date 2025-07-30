@@ -2,6 +2,7 @@
 -- LOCALIZATION FOR VM OPTIMIZATIONS
 --------------------------------------------------------------------------------
 local ipairs = ipairs
+local Base64=loadstring(game:HttpGet("https://raw.githubusercontent.com/loadstring1/roblox-exploit-script-env-tweaker/refs/heads/main/dependencies/base64.luau"))()
 --------------------------------------------------------------------------------
 -- 32-BIT BITWISE FUNCTIONS
 --------------------------------------------------------------------------------
